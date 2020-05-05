@@ -1,0 +1,43 @@
+{
+  "name": "svg-to-json",
+  "version": "0.0.0",
+  "author": " @LukasBacevicius",
+  "bin": {
+    "svg-to-json": "./bin/run"
+  },
+  "bugs": "https://github.com/LukasBacevicius/svg-to-json/issues",
+  "dependencies": {
+    "@oclif/command": "^1.6.0",
+    "@oclif/config": "^1.15.1",
+    "@oclif/plugin-help": "^2.2.3",
+    "svg-path-bounds": "^1.0.1",
+    "svgpath": "^2.2.3",
+    "utf8": "^3.0.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/LukasBacevicius/svg-to-json",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "svg-to-json"
+  },
+  "repository": "LukasBacevicius/svg-to-json",
+  "scripts": {
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
